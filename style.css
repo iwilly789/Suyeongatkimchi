@@ -11,7 +11,7 @@
   --yellow:    #f4c747;   
   --red:       #c0392b;   
   --dark-red:  #8b1a1a;   
-  --green:     #197d50;   
+  --green:     #236a49;   
   --cream:     #FFECC0;   
   --sand:      #e8dcc8;   
   --charcoal:  #110a07;   
@@ -211,7 +211,7 @@ nav ul li a:hover::after { width: 100%; }
   padding-top: 70px;  
   position: relative;
   overflow: hidden;
-  background: #3a5a40; /* 자연스러운 초록 매칭 */
+  background: var(--green); /* 자연스러운 초록 매칭 */
 }
 
 .hero-inner {
